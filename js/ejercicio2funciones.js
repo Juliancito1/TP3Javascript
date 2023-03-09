@@ -6,7 +6,7 @@ maymin(cadena);
 
 function maymin(texto)
 {
-    if(texto)
+    if(texto && isNaN(texto))
     {
     if(cadena === cadena.toUpperCase())
     {
