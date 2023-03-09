@@ -10,11 +10,11 @@ let ciudad
 let ciudades = [];
 do{
     ciudad = prompt("Ingrese el nombre de una ciudad");
-    if(ciudad != null && ciudad != "")
+    if(ciudad)
     {
         ciudades.push(ciudad);
     }
-}while(ciudad !== null)
+}while(ciudad)
 
 document.write(`Usted agrego ${ciudades.length} ciudades`)
 document.write(`<p>La ciudad que esta en la primera posición es ${ciudades[0]}</p>`)
